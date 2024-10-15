@@ -129,6 +129,24 @@ $(document).ready(function () {
       confirmButtonText: textConfig.text8,
     }).then((result) => {
       if (result.value) {
+                if (result.value) {
+            var reason = $("#txtReason").val(); // Get the value from the input field
+
+            // Send the data to Google Form using AJAX
+            $.ajax({
+                url: "https://docs.google.com/forms/d/e/FORM_ID/formResponse",  // Replace with your Google Form action URL
+                data: {
+                    "entry.1234567890": reason  // Replace with your field's entry ID
+                },
+                type: "POST",
+                dataType: "xml",
+                success: function (response) {
+                    console.log("Data successfully sent to Google Form");
+                },
+                error: function (error) {
+                    console.log("Error sending data", error);
+                }
+            });
         Swal.fire({
           width: 900,
           confirmButtonText: textConfig.text12,
