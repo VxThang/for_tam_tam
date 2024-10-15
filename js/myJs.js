@@ -110,10 +110,10 @@ $(document).ready(function () {
     audio.play();
     Swal.fire({
       title: textConfig.text7,
-      html: true,
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='dd/mm/yyy'>",
+      // html: true,
       width: 900,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='dd/mm/yyy'>",
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
