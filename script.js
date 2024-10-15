@@ -1,16 +1,15 @@
 const textConfig = {
   text1: "Helo mỹ nữ!",
-  text2: "Chúc em ngày 14/2 thật vuii, và em có thể trả lời anh một câu hỏi được chứ?",
-  text3: "Anh thích em nhiều lắmm. Em có thích anh không :*",
-  text4: "Nếu em không trả lời mà thoát ra tức là yêu anh đó nhaa :v",
-  text5: "Anh mơ à ???",
-  text6: "Thích ơi là thíchhhh <3",
-  text7: "Hãy nói lý do em thích anh đi :v",
-  text8: "Gửi cho anh <3",
-  text9: "Vì anh đẹp tryyy",
-  text10: "Ựaaaa!!! Yêuu em mất ròiiii",
-  text11:
-    "Hẹn em một ngày gặp nhau thật gần nha :v Còn giờ thì chờ gì nữa mà ko inbox cho anh đi nàooo",
+  text2: "Đây là một website khảo sát mini, chúng ta đi tiếp nhé!",
+  text3: "Hà Nội ngày trở gió, em nơi đó có nhớ anh khongggg :3",
+  text4: " ",
+  text5: "Em khonggggg :p ",
+  text6: "Nhớ anh vô cùng tận :3",
+  text7: "Cho anh xin một ngày trống lịch của em được khong, chúng ta setup đi chơiii :3",
+  text8: "Gửi cho anhh!",
+  text9: " ",
+  text10: " Ví anh như một hình tròn, vì không thể thiếu Tâmmmm",
+  text11: "Hẹn em một ngày gặp nhau thật gần nha :v Còn giờ thì chờ gì nữa mà ko inbox cho anh đi nàooo",
   text12: "Okii lunn <3",
 };
 
@@ -114,7 +113,7 @@ $(document).ready(function () {
       html: true,
       width: 900,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='dd/mm/yyy'>",
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
@@ -138,7 +137,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "http://fb.com";
+            window.location = "https://www.facebook.com/ThanhY06/";
           },
         });
       }
