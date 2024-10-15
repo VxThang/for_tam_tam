@@ -104,6 +104,10 @@ $(document).ready(function () {
   //   $("#txtReason").val(n);
   // }
 
+  function textGenerate() {
+  var textVal = $("#txtReason").val(); // Get the current value of the input field
+  console.log(textVal); // Optional: Log the current input for debugging purposes
+}
   // show popup
   $("#yes").click(function () {
     var audio = new Audio("sound/tick.mp3");
