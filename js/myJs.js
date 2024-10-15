@@ -110,8 +110,7 @@ $(document).ready(function () {
     audio.play();
     Swal.fire({
       title: textConfig.text7,
-      html: "<input type='text' id='txtReason'  placeholder='dd/mm/yyy'>",
-      // html: "<input type='text' class='form-control' id='txtReason'  placeholder='dd/mm/yyy'>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='dd/mm/yyy'>",
       // html: true,
       width: 900,
       padding: "3em",
