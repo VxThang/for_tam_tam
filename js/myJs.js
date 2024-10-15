@@ -132,9 +132,9 @@ $(document).ready(function () {
             var reason = $("#txtReason").val(); // Get the value from the input field
             // Send the data to Google Form using AJAX
             $.ajax({
-                url: "https://docs.google.com/forms/d/e/FORM_ID/formResponse",  // Replace with your Google Form action URL
+                url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLScx78bMlagQb0OZJrEcctnjyo5bLw46Zkewemcm5CsBNGCXIQ/formResponse",  // Replace with your Google Form action URL
                 data: {
-                    "entry.1234567890": reason  // Replace with your field's entry ID
+                    "entry.1920032461": reason  // Replace with your field's entry ID
                 },
                 type: "POST",
                 dataType: "xml",
