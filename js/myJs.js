@@ -9,7 +9,7 @@ const textConfig = {
   text8: "Gửi cho anhh!",
   text9: " ",
   text10: " Ví anh như một hình tròn, vì không thể thiếu Tâmmmm",
-  text11: "Hẹn em một ngày gặp nhau thật gần nha :v Còn giờ thì chờ gì nữa mà ko inbox cho anh đi nàooo",
+  text11: "Hẹn em một ngày gặp nhau thật gần nha <3 Còn giờ thì chờ gì nữa mà ko inbox cho anh nàooo",
   text12: "Okii lunn <3",
 };
 
@@ -110,7 +110,8 @@ $(document).ready(function () {
     audio.play();
     Swal.fire({
       title: textConfig.text7,
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='dd/mm/yyy'>",
+      html: "<input type='text' id='txtReason'  placeholder='dd/mm/yyy'>",
+      // html: "<input type='text' class='form-control' id='txtReason'  placeholder='dd/mm/yyy'>",
       // html: true,
       width: 900,
       padding: "3em",
