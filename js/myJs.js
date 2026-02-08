@@ -1,15 +1,15 @@
 const textConfig = {
   text1: "Helo mỹ nữ!",
-  text2: "Đây là một website khảo sát mini, chúng ta đi tiếp nhé!",
-  text3: "Hà Nội ngày trở gió, em nơi đó có nhớ anh khongggg :3",
+  text2: "Ngày xuân long phụng sum vầy, có anh vẫn đứng chờ nàng du xuân!",
+  text3: "Lại một năm sắp trôi qua, em có thể dành thời gian cùng anh nhìn lại bốn mùa được khong?",
   text4: " ",
-  text5: "Em khonggggg :p ",
-  text6: "Miss u so muchh :3",
-  text7: "Cho anh xin một ngày trống lịch của em được khong, chúng ta setup đi chơiii :3",
+  text5: "Em bận mất roii :( ",
+  text6: "Okilaa :3",
+  text7: "Cho anh xin một ngày trống lịch của em nhée <3",
   text8: "Gửi cho anhh!",
   text9: " ",
   text10: " Ví anh như một hình tròn, vì không thể thiếu Tâmmmm",
-  text11: "Hẹn em một ngày gặp nhau thật gần nha <3 Còn giờ thì chờ gì nữa mà ko inbox cho anh nàooo",
+  text11: "Hẹn em một ngày gặp nhau thật gần nha!!! Còn giờ thì chờ gì nữa mà ko inbox cho anh nàooo",
   text12: "Okii lunn <3",
 };
 
